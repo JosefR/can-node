@@ -75,6 +75,7 @@ LIBS:ESD_Protection
 LIBS:Altera
 LIBS:74xx
 LIBS:74xgxx
+LIBS:can-node-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
