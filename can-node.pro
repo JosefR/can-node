@@ -1,4 +1,4 @@
-update=Sat Aug  6 20:04:36 2016
+update=Sat Aug 13 12:12:47 2016
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=lib
@@ -106,3 +104,5 @@ LibName74=Altera
 LibName75=74xx
 LibName76=74xgxx
 LibName77=lib/can-node
+[general]
+version=1
