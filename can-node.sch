@@ -75,12 +75,13 @@ LIBS:ESD_Protection
 LIBS:Altera
 LIBS:74xx
 LIBS:74xgxx
+LIBS:can-node
 LIBS:can-node-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -107,5 +108,11 @@ S 1900 3100 1600 1500
 U 562B5164
 F0 "CAN Interface" 60
 F1 "can.sch" 60
+$EndSheet
+$Sheet
+S 1900 1300 1600 1500
+U 57AF4672
+F0 "Connector" 60
+F1 "connector.sch" 60
 $EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Sa 24 Okt 2015 15:00:08 CEST
+update=Sat Aug  6 20:04:36 2016
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/opt/db/kicad/github/kicad-library/library
+LibDir=lib
 [eeschema/libraries]
 LibName1=xilinx
 LibName2=video
@@ -105,3 +105,4 @@ LibName73=ESD_Protection
 LibName74=Altera
 LibName75=74xx
 LibName76=74xgxx
+LibName77=lib/can-node
