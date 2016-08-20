@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP HDC1080
+D Digital Humidity and Temperature Sensor
+F ref/sensor/hdc1080.pdf
+$ENDCMP
+#
 $CMP STM32F072RB
 D ARM Cortex M0 microcontroller, 128 KB Flash, USB, CAN, 12 timers
 $ENDCMP
@@ -7,6 +12,11 @@ $ENDCMP
 $CMP TJA1042T/3
 D CAN transceiver with VIO
 F ref/can-transceiver/TJA1042.pdf
+$ENDCMP
+#
+$CMP TPS5401
+D 0.5-A, 42-V input, step-down converter, 116µA Iq
+F ref/power-management/tps5401.pdf
 $ENDCMP
 #
 #End Doc Library

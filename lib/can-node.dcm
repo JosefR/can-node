@@ -14,4 +14,9 @@ D CAN transceiver with VIO
 F ref/can-transceiver/TJA1042.pdf
 $ENDCMP
 #
+$CMP TPS5401
+D 0.5-A, 42-V input, step-down converter, 116µA Iq
+F ref/power-management/tps5401.pdf
+$ENDCMP
+#
 #End Doc Library
