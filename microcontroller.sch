@@ -667,4 +667,10 @@ F 3 "" H 9000 4700 50  0000 C CNN
 	1    9000 4700
 	1    0    0    -1  
 $EndComp
+Text GLabel 7000 2900 2    60   Output ~ 0
+CAN_SHUTDOWN
+Wire Wire Line
+	7000 2900 6200 2900
+Text Label 6250 2900 0    60   ~ 0
+GPIO_PB3_OUT
 $EndSCHEMATC

@@ -9,6 +9,12 @@ $CMP STM32F072RB
 D ARM Cortex M0 microcontroller, 128 KB Flash, USB, CAN, 12 timers
 $ENDCMP
 #
+$CMP TCAN334
+D 3.3-V CAN transceiver, with standby and shutdown mode
+K CAN
+F ref/can-transceiver/tcan334.pdf
+$ENDCMP
+#
 $CMP TJA1042T/3
 D CAN transceiver with VIO
 F ref/can-transceiver/TJA1042.pdf
