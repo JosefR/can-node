@@ -5,6 +5,10 @@ D Digital Humidity and Temperature Sensor
 F ref/sensor/hdc1080.pdf
 $ENDCMP
 #
+$CMP SN74LVC1G11
+D single 3-input positive-AND gate
+$ENDCMP
+#
 $CMP STM32F072RB
 D ARM Cortex M0 microcontroller, 128 KB Flash, USB, CAN, 12 timers
 $ENDCMP
