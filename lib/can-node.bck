@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DMP6023LSS
+D 60V Vds, 6.6A Id, P-Channel MOSFET, SO-8
+K N-Channel MOSFET Logic Level
+F ref/transistor/DMP6023LSS.pdf
+$ENDCMP
+#
 $CMP HDC1080
 D Digital Humidity and Temperature Sensor
 F ref/sensor/hdc1080.pdf
