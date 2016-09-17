@@ -203,17 +203,13 @@ Wire Wire Line
 Wire Wire Line
 	1600 1950 1600 2050
 Wire Wire Line
-	1200 1700 1200 2050
-Wire Wire Line
-	1200 2050 1200 2300
+	1200 1700 1200 2300
 Wire Wire Line
 	1600 2050 1200 2050
 Connection ~ 1200 2050
 Connection ~ 1600 1400
 Wire Wire Line
-	750  1400 850  1400
-Wire Wire Line
-	850  1400 950  1400
+	750  1400 950  1400
 Wire Wire Line
 	2650 6000 2650 6250
 Wire Wire Line
@@ -224,13 +220,7 @@ Connection ~ 850  1400
 Wire Wire Line
 	850  2900 850  2500
 Wire Wire Line
-	1350 1400 1600 1400
-Wire Wire Line
-	1600 1400 2350 1400
-Wire Wire Line
-	2350 1400 2750 1400
-Wire Wire Line
-	2750 1400 2900 1400
+	1350 1400 2900 1400
 $Comp
 L GND #PWR?
 U 1 1 57C23EF3
@@ -399,13 +389,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 1400 4150 1400
 Wire Wire Line
-	4150 1400 4150 1600
+	4150 1400 4150 1650
 Wire Wire Line
-	4150 1600 4150 1650
-Wire Wire Line
-	3700 1600 4150 1600
-Wire Wire Line
-	4150 1600 4250 1600
+	3700 1600 4250 1600
 $Comp
 L GND #PWR?
 U 1 1 57D426D3
@@ -470,17 +456,11 @@ Connection ~ 2750 1400
 Wire Wire Line
 	2350 1800 2350 1850
 Wire Wire Line
-	4850 1600 4950 1600
-Wire Wire Line
-	4950 1600 5350 1600
-Wire Wire Line
-	5350 1600 5950 1600
+	4850 1600 5950 1600
 Wire Wire Line
 	4950 1600 4950 1650
 Wire Wire Line
-	4950 1950 4950 2000
-Wire Wire Line
-	4950 2000 4950 2050
+	4950 1950 4950 2050
 Wire Wire Line
 	4950 2400 4950 2350
 Wire Wire Line

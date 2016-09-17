@@ -16,6 +16,10 @@ D  60 V 0.6 A Buck Regulator
 F http://www.ti.com/lit/ds/symlink/lmr16006.pdf
 $ENDCMP
 #
+$CMP SN74LVC1G08
+D single 2-input positive-AND gate
+$ENDCMP
+#
 $CMP SN74LVC1G11
 D single 3-input positive-AND gate
 $ENDCMP

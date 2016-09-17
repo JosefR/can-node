@@ -11,11 +11,6 @@ D Digital Humidity and Temperature Sensor
 F ref/sensor/hdc1080.pdf
 $ENDCMP
 #
-$CMP KMR16006
-D  60 V 0.6 A Buck Regulator
-F http://www.ti.com/lit/ds/symlink/lmr16006.pdf
-$ENDCMP
-#
 $CMP LMR16006
 D  60 V 0.6 A Buck Regulator
 F http://www.ti.com/lit/ds/symlink/lmr16006.pdf
