@@ -13,7 +13,11 @@ $ENDCMP
 #
 $CMP LMR16006
 D  60 V 0.6 A Buck Regulator
-F http://www.ti.com/lit/ds/symlink/lmr16006.pdf
+F http://www.ti.com/product/LMR16006/datasheet
+$ENDCMP
+#
+$CMP SN74LVC1G08
+D single 2-input positive-AND gate
 $ENDCMP
 #
 $CMP SN74LVC1G11
