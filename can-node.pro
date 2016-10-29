@@ -1,4 +1,4 @@
-update=Sat Sep  3 17:19:51 2016
+update=Sa 29 Okt 2016 12:29:14 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -104,8 +104,6 @@ LibName74=Altera
 LibName75=74xx
 LibName76=74xgxx
 LibName77=lib/can-node
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -117,3 +115,5 @@ SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[general]
+version=1

@@ -161,7 +161,7 @@ U 1 1 57AEEED7
 P 6250 3350
 F 0 "JP1" V 6250 3425 50  0000 L CNN
 F 1 "Jumper_NC_Small" H 6260 3290 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6250 3350 50  0001 C CNN
+F 2 "CAN_Node:SolderJumper" H 6250 3350 50  0001 C CNN
 F 3 "" H 6250 3350 50  0000 C CNN
 	1    6250 3350
 	0    1    1    0   
