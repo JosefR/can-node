@@ -155,17 +155,6 @@ F 3 "" H 6250 4150 50  0000 C CNN
 	1    6250 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper_NC_Small JP1
-U 1 1 57AEEED7
-P 6250 3350
-F 0 "JP1" V 6250 3425 50  0000 L CNN
-F 1 "Jumper_NC_Small" H 6260 3290 50  0001 C CNN
-F 2 "CAN_Node:SolderJumper" H 6250 3350 50  0001 C CNN
-F 3 "" H 6250 3350 50  0000 C CNN
-	1    6250 3350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5750 3150 6400 3150
 Wire Wire Line
@@ -184,9 +173,7 @@ Connection ~ 6250 4500
 Wire Wire Line
 	6250 3800 6250 4000
 Wire Wire Line
-	6250 3450 6250 3500
-Wire Wire Line
-	6250 3250 6250 3150
+	6250 3150 6250 3500
 Connection ~ 6250 3150
 $Comp
 L C C20
