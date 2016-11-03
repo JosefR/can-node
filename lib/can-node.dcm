@@ -11,6 +11,10 @@ D Digital Humidity and Temperature Sensor
 F ref/sensor/hdc1080.pdf
 $ENDCMP
 #
+$CMP LED_RGB_6P
+D LED RGB 6 pins
+$ENDCMP
+#
 $CMP LMR16006
 D  60 V 0.6 A Buck Regulator
 F http://www.ti.com/product/LMR16006/datasheet
