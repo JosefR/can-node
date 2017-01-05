@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7002
+D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
+K N-Channel Switching MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
+$ENDCMP
+#
+$CMP BSS84P
+D -60V Vds, -0.17A Id, -1.5V Vgsth, P-Channel MOSFET, SOT-23
+K N-Channel MOSFET Logic Level
+F http://www.infineon.com/dgdl/Infineon-BSS84P-DS-v02_07-en.pdf
+$ENDCMP
+#
 $CMP DMP6023LSS
 D 60V Vds, 6.6A Id, P-Channel MOSFET, SO-8
 K N-Channel MOSFET Logic Level

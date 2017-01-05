@@ -1459,9 +1459,9 @@ Wire Wire Line
 	10150 2350 10500 2350
 Connection ~ 10500 2350
 Wire Wire Line
-	9550 1850 9550 2200
+	9550 1750 9550 2200
 Wire Wire Line
-	7900 1850 9550 1850
+	7850 1750 9550 1750
 $Comp
 L C C19
 U 1 1 586A5D2F
@@ -1499,7 +1499,7 @@ F 3 "" H 9050 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 1650 9650 1650
+	7850 1650 9650 1650
 Wire Wire Line
 	9650 1650 9650 2500
 Wire Wire Line
@@ -1512,10 +1512,6 @@ Wire Wire Line
 	7000 2400 7000 2650
 Wire Wire Line
 	7000 2650 7200 2650
-Wire Wire Line
-	8000 1650 8000 4000
-Wire Wire Line
-	7900 1850 7900 3900
 Wire Wire Line
 	6200 4100 6700 4100
 Text Label 1650 7100 0    60   ~ 0
@@ -1568,10 +1564,6 @@ PC12
 Wire Wire Line
 	6200 4500 6300 4500
 Wire Wire Line
-	8000 4000 6200 4000
-Wire Wire Line
-	7900 3900 6200 3900
-Wire Wire Line
 	6200 3100 6300 3100
 Wire Wire Line
 	6200 3200 6300 3200
@@ -1614,4 +1606,16 @@ F 3 "" H 9650 4300 50  0000 C CNN
 	1    9650 4300
 	1    0    0    -1  
 $EndComp
+Text Label 3500 3500 2    60   ~ 0
+PA1
+Text Label 3500 3600 2    60   ~ 0
+PA2
+Wire Wire Line
+	3350 3500 3500 3500
+Wire Wire Line
+	3350 3600 3500 3600
+Text Label 8000 1650 2    60   ~ 0
+PA1
+Text Label 8000 1750 2    60   ~ 0
+PA2
 $EndSCHEMATC
