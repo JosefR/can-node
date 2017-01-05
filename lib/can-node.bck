@@ -11,9 +11,23 @@ D Digital Humidity and Temperature Sensor
 F ref/sensor/hdc1080.pdf
 $ENDCMP
 #
+$CMP LED_RGB_6P
+D LED RGB 6 pins
+$ENDCMP
+#
 $CMP LMR16006
 D  60 V 0.6 A Buck Regulator
 F http://www.ti.com/product/LMR16006/datasheet
+$ENDCMP
+#
+$CMP LTC-4627
+D LITEON 4 x 7-segment common anode display
+K 7 SEGMENTS 4 display
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-185/S_110_LTC-4627JR.pdf
+$ENDCMP
+#
+$CMP Power_Connect
+D seperate different power signals (KiCAD workaround)
 $ENDCMP
 #
 $CMP SN74LVC1G08
