@@ -1,4 +1,4 @@
-(module LTC-4627 (layer F.Cu) (tedit 586A1EA2)
+(module LTC-4627 (layer F.Cu) (tedit 5873B404)
   (fp_text reference REF** (at 0 -1.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -27,4 +27,9 @@
   (pad 14 thru_hole circle (at -3.81 -5.08) (size 1.5 1.5) (drill 0.7) (layers *.Cu *.Mask))
   (pad 15 thru_hole circle (at -6.35 -5.08) (size 1.5 1.5) (drill 0.7) (layers *.Cu *.Mask))
   (pad 16 thru_hole circle (at -8.89 -5.08) (size 1.5 1.5) (drill 0.7) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/3d/shapes3D/LTC2627.x3d
+    (at (xyz 0 0 0))
+    (scale (xyz 0.394 0.394 0.394))
+    (rotate (xyz 90 180 0))
+  )
 )
