@@ -1,81 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:xilinx
-LIBS:video
-LIBS:valves
-LIBS:ttl_ieee
-LIBS:transistors
-LIBS:transf
-LIBS:texas
-LIBS:switches
-LIBS:supertex
-LIBS:stm8
-LIBS:stm32
-LIBS:siliconi
-LIBS:silabs
-LIBS:sensors
-LIBS:rfcom
-LIBS:relays
-LIBS:regul
-LIBS:references
-LIBS:powerint
-LIBS:power
-LIBS:philips
-LIBS:opto
-LIBS:onsemi
-LIBS:nxp_armmcu
-LIBS:nordicsemi
-LIBS:msp430
-LIBS:motorola
-LIBS:motor_drivers
-LIBS:microcontrollers
-LIBS:microchip_pic32mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic10mcu
-LIBS:microchip_dspic33dsc
-LIBS:microchip
-LIBS:memory
-LIBS:maxim
-LIBS:logo
-LIBS:linear
-LIBS:ir
-LIBS:interface
-LIBS:intel
-LIBS:hc11
-LIBS:graphic
-LIBS:gennum
-LIBS:ftdi
-LIBS:elec-unifil
-LIBS:dsp
-LIBS:display
-LIBS:diode
-LIBS:digital-audio
-LIBS:device
-LIBS:dc-dc
-LIBS:cypress
-LIBS:contrib
-LIBS:conn
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:brooktre
-LIBS:audio
-LIBS:atmel
-LIBS:analog_switches
-LIBS:analog_devices
-LIBS:adc-dac
-LIBS:actel
-LIBS:ac-dc
-LIBS:Zilog
-LIBS:Xicor
-LIBS:Power_Management
-LIBS:Oscillators
-LIBS:Lattice
-LIBS:ESD_Protection
-LIBS:Altera
-LIBS:74xx
-LIBS:74xgxx
-LIBS:can-node
+EESchema Schematic File Version 4
 LIBS:can-node-cache
 EELAYER 26 0
 EELAYER END
@@ -92,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LTC-4627 AFF1
+L can-node:LTC-4627 AFF1
 U 1 1 586C319C
 P 5600 3650
 F 0 "AFF1" H 6728 3696 50  0000 L CNN
@@ -109,95 +32,95 @@ Wire Wire Line
 Text GLabel 4000 5300 0    60   Input ~ 0
 PC0
 $Comp
-L R R25
+L can-node-rescue:R R25
 U 1 1 586C588F
 P 4500 4800
 F 0 "R25" H 4570 4846 50  0000 L CNN
 F 1 "120" H 4570 4755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 4430 4800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4430 4800 50  0001 C CNN
 F 3 "" H 4500 4800 50  0000 C CNN
 	1    4500 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L can-node-rescue:R R26
 U 1 1 586C5910
 P 5050 5000
 F 0 "R26" H 5120 5046 50  0000 L CNN
 F 1 "120" H 5120 4955 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 4980 5000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4980 5000 50  0001 C CNN
 F 3 "" H 5050 5000 50  0000 C CNN
 	1    5050 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L can-node-rescue:R R27
 U 1 1 586C5973
 P 5600 5250
 F 0 "R27" H 5670 5296 50  0000 L CNN
 F 1 "120" H 5670 5205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 5530 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5530 5250 50  0001 C CNN
 F 3 "" H 5600 5250 50  0000 C CNN
 	1    5600 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L can-node-rescue:R R28
 U 1 1 586C598F
 P 6150 5500
 F 0 "R28" H 6220 5546 50  0000 L CNN
 F 1 "120" H 6220 5455 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 6080 5500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6080 5500 50  0001 C CNN
 F 3 "" H 6150 5500 50  0000 C CNN
 	1    6150 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R33
+L can-node-rescue:R R33
 U 1 1 586C59AE
 P 7700 4800
 F 0 "R33" H 7770 4846 50  0000 L CNN
 F 1 "120" H 7770 4755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 7630 4800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7630 4800 50  0001 C CNN
 F 3 "" H 7700 4800 50  0000 C CNN
 	1    7700 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R34
+L can-node-rescue:R R34
 U 1 1 586C59D0
 P 8250 5050
 F 0 "R34" H 8320 5096 50  0000 L CNN
 F 1 "120" H 8320 5005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 8180 5050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8180 5050 50  0001 C CNN
 F 3 "" H 8250 5050 50  0000 C CNN
 	1    8250 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R35
+L can-node-rescue:R R35
 U 1 1 586C59F5
 P 8800 5250
 F 0 "R35" H 8870 5296 50  0000 L CNN
 F 1 "120" H 8870 5205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 8730 5250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8730 5250 50  0001 C CNN
 F 3 "" H 8800 5250 50  0000 C CNN
 	1    8800 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R36
+L can-node-rescue:R R36
 U 1 1 586C5A1D
 P 9350 5500
 F 0 "R36" H 9420 5546 50  0000 L CNN
 F 1 "120" H 9420 5455 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 9280 5500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9280 5500 50  0001 C CNN
 F 3 "" H 9350 5500 50  0000 C CNN
 	1    9350 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR066
+L power:GND #PWR066
 U 1 1 586C5A71
 P 5050 6300
 F 0 "#PWR066" H 5050 6050 50  0001 C CNN
@@ -208,7 +131,7 @@ F 3 "" H 5050 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR067
+L power:+3.3V #PWR067
 U 1 1 586CC6B0
 P 4900 800
 F 0 "#PWR067" H 4900 650 50  0001 C CNN
@@ -225,7 +148,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 2650 4900 2950
 $Comp
-L GND #PWR068
+L power:GND #PWR068
 U 1 1 586CDDCB
 P 4500 6300
 F 0 "#PWR068" H 4500 6050 50  0001 C CNN
@@ -248,7 +171,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4400 5300 4350
 $Comp
-L GND #PWR069
+L power:GND #PWR069
 U 1 1 586CE96B
 P 5600 6300
 F 0 "#PWR069" H 5600 6050 50  0001 C CNN
@@ -259,7 +182,7 @@ F 3 "" H 5600 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L power:GND #PWR070
 U 1 1 586CE9BB
 P 6150 6300
 F 0 "#PWR070" H 6150 6050 50  0001 C CNN
@@ -270,7 +193,7 @@ F 3 "" H 6150 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR071
+L power:GND #PWR071
 U 1 1 586CEA22
 P 7700 6300
 F 0 "#PWR071" H 7700 6050 50  0001 C CNN
@@ -281,7 +204,7 @@ F 3 "" H 7700 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR072
+L power:GND #PWR072
 U 1 1 586CEA72
 P 8250 6300
 F 0 "#PWR072" H 8250 6050 50  0001 C CNN
@@ -292,7 +215,7 @@ F 3 "" H 8250 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR073
+L power:GND #PWR073
 U 1 1 586CEAC2
 P 8800 6300
 F 0 "#PWR073" H 8800 6050 50  0001 C CNN
@@ -303,7 +226,7 @@ F 3 "" H 8800 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR074
+L power:GND #PWR074
 U 1 1 586CEB12
 P 9350 6300
 F 0 "#PWR074" H 9350 6050 50  0001 C CNN
@@ -402,7 +325,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 6050 9050 6050
 $Comp
-L +3.3V #PWR075
+L power:+3.3V #PWR075
 U 1 1 586D244C
 P 5400 800
 F 0 "#PWR075" H 5400 650 50  0001 C CNN
@@ -413,7 +336,7 @@ F 3 "" H 5400 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR076
+L power:+3.3V #PWR076
 U 1 1 586D24C0
 P 5900 800
 F 0 "#PWR076" H 5900 650 50  0001 C CNN
@@ -424,7 +347,7 @@ F 3 "" H 5900 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR077
+L power:+3.3V #PWR077
 U 1 1 586D2534
 P 6400 800
 F 0 "#PWR077" H 6400 650 50  0001 C CNN
@@ -435,7 +358,7 @@ F 3 "" H 6400 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR078
+L power:+3.3V #PWR078
 U 1 1 586D25CB
 P 6900 800
 F 0 "#PWR078" H 6900 650 50  0001 C CNN
@@ -486,144 +409,160 @@ PC12
 Wire Wire Line
 	6150 6300 6150 6200
 $Comp
-L BSS138 Q3
+L can-node-rescue:BSS138 Q3
 U 1 1 586E74D4
 P 4400 5250
+AR Path="/586E74D4" Ref="Q3"  Part="1" 
+AR Path="/586C20B6/586E74D4" Ref="Q3"  Part="1" 
 F 0 "Q3" H 4591 5296 50  0000 L CNN
 F 1 "BSS138" H 4591 5205 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 4600 5175 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4600 5175 50  0001 L CIN
 F 3 "" H 4400 5250 50  0000 L CNN
 	1    4400 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q4
+L can-node-rescue:BSS138 Q4
 U 1 1 586E7BEE
 P 4950 5500
+AR Path="/586E7BEE" Ref="Q4"  Part="1" 
+AR Path="/586C20B6/586E7BEE" Ref="Q4"  Part="1" 
 F 0 "Q4" H 5141 5546 50  0000 L CNN
 F 1 "BSS138" H 5141 5455 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 5150 5425 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5150 5425 50  0001 L CIN
 F 3 "" H 4950 5500 50  0000 L CNN
 	1    4950 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q5
+L can-node-rescue:BSS138 Q5
 U 1 1 586E7C55
 P 5500 5750
+AR Path="/586E7C55" Ref="Q5"  Part="1" 
+AR Path="/586C20B6/586E7C55" Ref="Q5"  Part="1" 
 F 0 "Q5" H 5691 5796 50  0000 L CNN
 F 1 "BSS138" H 5691 5705 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 5700 5675 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5700 5675 50  0001 L CIN
 F 3 "" H 5500 5750 50  0000 L CNN
 	1    5500 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q6
+L can-node-rescue:BSS138 Q6
 U 1 1 586E7CC7
 P 6050 6000
+AR Path="/586E7CC7" Ref="Q6"  Part="1" 
+AR Path="/586C20B6/586E7CC7" Ref="Q6"  Part="1" 
 F 0 "Q6" H 6241 6046 50  0000 L CNN
 F 1 "BSS138" H 6241 5955 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6250 5925 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6250 5925 50  0001 L CIN
 F 3 "" H 6050 6000 50  0000 L CNN
 	1    6050 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q7
+L can-node-rescue:BSS138 Q7
 U 1 1 586E7D3E
 P 7600 5250
+AR Path="/586E7D3E" Ref="Q7"  Part="1" 
+AR Path="/586C20B6/586E7D3E" Ref="Q7"  Part="1" 
 F 0 "Q7" H 7791 5296 50  0000 L CNN
 F 1 "BSS138" H 7791 5205 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 7800 5175 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 7800 5175 50  0001 L CIN
 F 3 "" H 7600 5250 50  0000 L CNN
 	1    7600 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q8
+L can-node-rescue:BSS138 Q8
 U 1 1 586E7DC6
 P 8150 5500
+AR Path="/586E7DC6" Ref="Q8"  Part="1" 
+AR Path="/586C20B6/586E7DC6" Ref="Q8"  Part="1" 
 F 0 "Q8" H 8341 5546 50  0000 L CNN
 F 1 "BSS138" H 8341 5455 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8350 5425 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 8350 5425 50  0001 L CIN
 F 3 "" H 8150 5500 50  0000 L CNN
 	1    8150 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q9
+L can-node-rescue:BSS138 Q9
 U 1 1 586E7E41
 P 8700 5750
+AR Path="/586E7E41" Ref="Q9"  Part="1" 
+AR Path="/586C20B6/586E7E41" Ref="Q9"  Part="1" 
 F 0 "Q9" H 8891 5796 50  0000 L CNN
 F 1 "BSS138" H 8891 5705 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8900 5675 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 8900 5675 50  0001 L CIN
 F 3 "" H 8700 5750 50  0000 L CNN
 	1    8700 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q10
+L can-node-rescue:BSS138 Q10
 U 1 1 586E7EBF
 P 9250 6000
+AR Path="/586E7EBF" Ref="Q10"  Part="1" 
+AR Path="/586C20B6/586E7EBF" Ref="Q10"  Part="1" 
 F 0 "Q10" H 9441 6046 50  0000 L CNN
 F 1 "BSS138" H 9441 5955 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 9450 5925 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 9450 5925 50  0001 L CIN
 F 3 "" H 9250 6000 50  0000 L CNN
 	1    9250 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS84P Q11
+L can-node:BSS84P Q11
 U 1 1 586EA825
 P 4800 2450
 F 0 "Q11" H 4991 2496 50  0000 L CNN
 F 1 "BSS84P" H 4991 2405 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 5000 2375 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5000 2375 50  0001 L CIN
 F 3 "" H 4800 2450 50  0000 L CNN
 	1    4800 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS84P Q12
+L can-node:BSS84P Q12
 U 1 1 586EAAFA
 P 5300 2150
 F 0 "Q12" H 5491 2196 50  0000 L CNN
 F 1 "BSS84P" H 5491 2105 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 5500 2075 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5500 2075 50  0001 L CIN
 F 3 "" H 5300 2150 50  0000 L CNN
 	1    5300 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS84P Q13
+L can-node:BSS84P Q13
 U 1 1 586EABA8
 P 5800 1850
 F 0 "Q13" H 5991 1896 50  0000 L CNN
 F 1 "BSS84P" H 5991 1805 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6000 1775 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6000 1775 50  0001 L CIN
 F 3 "" H 5800 1850 50  0000 L CNN
 	1    5800 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS84P Q14
+L can-node:BSS84P Q14
 U 1 1 586EAC04
 P 6300 1550
 F 0 "Q14" H 6491 1596 50  0000 L CNN
 F 1 "BSS84P" H 6491 1505 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6500 1475 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6500 1475 50  0001 L CIN
 F 3 "" H 6300 1550 50  0000 L CNN
 	1    6300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS84P Q15
+L can-node:BSS84P Q15
 U 1 1 586EAC54
 P 6800 1250
 F 0 "Q15" H 6991 1296 50  0000 L CNN
 F 1 "BSS84P" H 6991 1205 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 7000 1175 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 7000 1175 50  0001 L CIN
 F 3 "" H 6800 1250 50  0000 L CNN
 	1    6800 1250
 	1    0    0    -1  

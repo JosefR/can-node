@@ -1,81 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:xilinx
-LIBS:video
-LIBS:valves
-LIBS:ttl_ieee
-LIBS:transistors
-LIBS:transf
-LIBS:texas
-LIBS:switches
-LIBS:supertex
-LIBS:stm8
-LIBS:stm32
-LIBS:siliconi
-LIBS:silabs
-LIBS:sensors
-LIBS:rfcom
-LIBS:relays
-LIBS:regul
-LIBS:references
-LIBS:powerint
-LIBS:power
-LIBS:philips
-LIBS:opto
-LIBS:onsemi
-LIBS:nxp_armmcu
-LIBS:nordicsemi
-LIBS:msp430
-LIBS:motorola
-LIBS:motor_drivers
-LIBS:microcontrollers
-LIBS:microchip_pic32mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic10mcu
-LIBS:microchip_dspic33dsc
-LIBS:microchip
-LIBS:memory
-LIBS:maxim
-LIBS:logo
-LIBS:linear
-LIBS:ir
-LIBS:interface
-LIBS:intel
-LIBS:hc11
-LIBS:graphic
-LIBS:gennum
-LIBS:ftdi
-LIBS:elec-unifil
-LIBS:dsp
-LIBS:display
-LIBS:diode
-LIBS:digital-audio
-LIBS:device
-LIBS:dc-dc
-LIBS:cypress
-LIBS:contrib
-LIBS:conn
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:brooktre
-LIBS:audio
-LIBS:atmel
-LIBS:analog_switches
-LIBS:analog_devices
-LIBS:adc-dac
-LIBS:actel
-LIBS:ac-dc
-LIBS:Zilog
-LIBS:Xicor
-LIBS:Power_Management
-LIBS:Oscillators
-LIBS:Lattice
-LIBS:ESD_Protection
-LIBS:Altera
-LIBS:74xx
-LIBS:74xgxx
-LIBS:can-node
+EESchema Schematic File Version 4
 LIBS:can-node-cache
 EELAYER 26 0
 EELAYER END
@@ -104,7 +27,7 @@ F0 "Microcontroller" 60
 F1 "microcontroller.sch" 60
 $EndSheet
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 586A5601
 P 2250 2600
 F 0 "#PWR01" H 2250 2350 50  0001 C CNN
@@ -125,7 +48,7 @@ F0 "Display" 60
 F1 "display.sch" 60
 $EndSheet
 $Comp
-L VIN+ #PWR02
+L can-node:VIN+ #PWR02
 U 1 1 5870D281
 P 2250 1700
 F 0 "#PWR02" H 2250 1550 50  0001 C CNN
@@ -148,7 +71,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2100 2050 2100
 $Comp
-L CONN_01X04 P2
+L can-node-rescue:CONN_01X04 P2
 U 1 1 58754CE5
 P 1850 2050
 F 0 "P2" H 1928 2091 50  0000 L CNN

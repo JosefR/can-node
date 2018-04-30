@@ -25,7 +25,7 @@ $ENDCMP
 #
 $CMP IRLML0060
 D 60V Vds, 2.7A Id, N-Channel MOSFET, SOT-23
-K N-Channel MOSFET 
+K N-Channel MOSFET
 F http://www.infineon.com/dgdl/Infineon-IRLML0060-DS-v01_01-EN.pdf?fileId=5546d462533600a40153566493ef25e6
 $ENDCMP
 #
@@ -66,7 +66,7 @@ K CAN
 F ref/can-transceiver/tcan334.pdf
 $ENDCMP
 #
-$CMP TJA1042T/3
+$CMP TJA1042T_3
 D CAN transceiver with VIO
 F ref/can-transceiver/TJA1042.pdf
 $ENDCMP
