@@ -196,7 +196,7 @@ U 1 1 57AF6711
 P 4100 6900
 F 0 "U4" H 4100 7247 60  0000 C CNN
 F 1 "HDC1080" H 4100 7141 60  0000 C CNN
-F 2 "can-node:HDC1080" H 4100 6900 60  0001 C CNN
+F 2 "can-node:HDC1080_HandSoldering" H 4100 6900 60  0001 C CNN
 F 3 "" H 4100 6900 60  0000 C CNN
 	1    4100 6900
 	1    0    0    -1  
@@ -733,22 +733,6 @@ F 3 "" H 1400 2550 50  0000 C CNN
 	1    1400 2550
 	-1   0    0    1   
 $EndComp
-Text Label 3500 4500 2    60   ~ 0
-PB0
-Text Label 3500 4600 2    60   ~ 0
-PB1
-Text Label 3500 4700 2    60   ~ 0
-PB2
-Text Label 6200 2900 0    60   ~ 0
-PB3
-Text Label 6200 2800 0    60   ~ 0
-PB4
-Text Label 6200 2700 0    60   ~ 0
-PB5
-Text Label 6200 2600 0    60   ~ 0
-PB6
-Text Label 6200 2500 0    60   ~ 0
-PB7
 $Comp
 L power:+3.3V #PWR056
 U 1 1 58186903
@@ -1013,22 +997,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 6800 3450 6800
 Wire Wire Line
-	3100 4500 3500 4500
-Wire Wire Line
-	3500 4600 3000 4600
-Wire Wire Line
-	3500 4700 2900 4700
-Wire Wire Line
-	6200 2900 6700 2900
-Wire Wire Line
-	6200 2800 6650 2800
-Wire Wire Line
-	6200 2700 6600 2700
-Wire Wire Line
-	6200 2600 6550 2600
-Wire Wire Line
-	6200 2500 6800 2500
-Wire Wire Line
 	8650 5000 8700 5000
 Wire Wire Line
 	8700 5000 8700 5550
@@ -1050,7 +1018,7 @@ Wire Wire Line
 Connection ~ 3800 6450
 Connection ~ 4700 6900
 Wire Wire Line
-	6200 4200 6700 4200
+	6200 4200 6850 4200
 Wire Wire Line
 	2100 7350 2100 7200
 Wire Wire Line
@@ -1065,29 +1033,17 @@ Wire Wire Line
 	3050 7100 2600 7100
 Wire Wire Line
 	1650 7100 2100 7100
-Wire Wire Line
-	3500 4000 3100 4000
-Wire Wire Line
-	3500 3900 3250 3900
-Wire Wire Line
-	3500 4100 2950 4100
-Wire Wire Line
-	2800 4200 3500 4200
 $Comp
 L can-node-rescue:TEST_1P W3
 U 1 1 58445044
-P 7200 4250
-F 0 "W3" H 7200 4520 50  0000 C CNN
-F 1 "PA8" H 7200 4450 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 7400 4250 50  0001 C CNN
-F 3 "" H 7400 4250 50  0000 C CNN
-	1    7200 4250
+P 2400 2650
+F 0 "W3" H 2400 2920 50  0000 C CNN
+F 1 "~RST" H 2400 2850 50  0000 C CNN
+F 2 "can-node:Measurement_Point_tiny" H 2600 2650 50  0001 C CNN
+F 3 "" H 2600 2650 50  0000 C CNN
+	1    2400 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 4250 7200 4300
-Wire Wire Line
-	7200 4300 6200 4300
 Wire Wire Line
 	6200 4400 6300 4400
 $Comp
@@ -1319,7 +1275,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2650 7200 2650
 Wire Wire Line
-	6200 4100 6700 4100
+	6200 4100 6850 4100
 Text Label 1650 7100 0    60   ~ 0
 UART1_RX
 Text Label 2600 7100 0    60   ~ 0
@@ -1336,7 +1292,7 @@ U 1 1 57A64432
 P 4850 3550
 F 0 "U3" H 4850 5300 60  0000 C CNN
 F 1 "STM32F072RB" H 4850 1800 60  0000 C CNN
-F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 4850 3550 60  0001 C CNN
+F 2 "can-node:QFP-64_10x10_Pitch0.5mm_HandSoldering" H 4850 3550 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/cd/46/43/83/22/d3/40/c8/DM00090510.pdf/files/DM00090510.pdf/jcr:content/translations/en.DM00090510.pdf" H 4850 3550 60  0001 C CNN
 	1    4850 3550
 	1    0    0    -1  
@@ -1383,142 +1339,6 @@ Text Label 8000 1650 2    60   ~ 0
 PA1
 Text Label 8000 1750 2    60   ~ 0
 PA2
-$Comp
-L can-node-rescue:TEST_1P W14
-U 1 1 5870BC17
-P 3250 3900
-F 0 "W14" H 3250 4170 50  0000 C CNN
-F 1 "PA4" H 3250 4100 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 3450 3900 50  0001 C CNN
-F 3 "" H 3450 3900 50  0000 C CNN
-	1    3250 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W13
-U 1 1 5870C01C
-P 3100 4000
-F 0 "W13" H 3100 4270 50  0000 C CNN
-F 1 "PA5" H 3100 4200 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 3300 4000 50  0001 C CNN
-F 3 "" H 3300 4000 50  0000 C CNN
-	1    3100 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W5
-U 1 1 5870C0CE
-P 2950 4100
-F 0 "W5" H 2950 4370 50  0000 C CNN
-F 1 "PA6" H 2950 4300 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 3150 4100 50  0001 C CNN
-F 3 "" H 3150 4100 50  0000 C CNN
-	1    2950 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W4
-U 1 1 5870C17F
-P 2800 4200
-F 0 "W4" H 2800 4470 50  0000 C CNN
-F 1 "PA7" H 2800 4400 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 3000 4200 50  0001 C CNN
-F 3 "" H 3000 4200 50  0000 C CNN
-	1    2800 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W32
-U 1 1 58765162
-P 3100 4500
-F 0 "W32" H 3100 4770 50  0000 C CNN
-F 1 "PB0" H 3100 4700 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 3300 4500 50  0001 C CNN
-F 3 "" H 3300 4500 50  0000 C CNN
-	1    3100 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W31
-U 1 1 5876560F
-P 3000 4600
-F 0 "W31" H 3000 4870 50  0000 C CNN
-F 1 "PB1" H 3000 4800 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 3200 4600 50  0001 C CNN
-F 3 "" H 3200 4600 50  0000 C CNN
-	1    3000 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W30
-U 1 1 587656CD
-P 2900 4700
-F 0 "W30" H 2900 4970 50  0000 C CNN
-F 1 "PB2" H 2900 4900 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 3100 4700 50  0001 C CNN
-F 3 "" H 3100 4700 50  0000 C CNN
-	1    2900 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W36
-U 1 1 58766069
-P 6700 2900
-F 0 "W36" H 6700 3170 50  0000 C CNN
-F 1 "PB" H 6700 3100 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 6900 2900 50  0001 C CNN
-F 3 "" H 6900 2900 50  0000 C CNN
-	1    6700 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W35
-U 1 1 58766575
-P 6650 2800
-F 0 "W35" H 6650 3070 50  0000 C CNN
-F 1 "PB" H 6650 3000 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 6850 2800 50  0001 C CNN
-F 3 "" H 6850 2800 50  0000 C CNN
-	1    6650 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W34
-U 1 1 58766632
-P 6600 2700
-F 0 "W34" H 6600 2970 50  0000 C CNN
-F 1 "PB" H 6600 2900 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 6800 2700 50  0001 C CNN
-F 3 "" H 6800 2700 50  0000 C CNN
-	1    6600 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W33
-U 1 1 587666F2
-P 6550 2600
-F 0 "W33" H 6550 2870 50  0000 C CNN
-F 1 "PB" H 6550 2800 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 6750 2600 50  0001 C CNN
-F 3 "" H 6750 2600 50  0000 C CNN
-	1    6550 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L can-node-rescue:TEST_1P W37
-U 1 1 587667B5
-P 6900 2650
-F 0 "W37" H 6900 2920 50  0000 C CNN
-F 1 "PB" H 6900 2850 50  0000 C CNN
-F 2 "can-node:Measurement_Point_tiny" H 7100 2650 50  0001 C CNN
-F 3 "" H 7100 2650 50  0000 C CNN
-	1    6900 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 2500 6800 2650
-Wire Wire Line
-	6800 2650 6900 2650
 Wire Wire Line
 	950  2550 950  2900
 Wire Wire Line
@@ -1603,4 +1423,29 @@ Wire Wire Line
 	3350 3500 3500 3500
 Text Label 3500 3500 2    60   ~ 0
 PA1
+Wire Wire Line
+	2400 2700 2400 2650
+Connection ~ 2400 2700
+$Comp
+L can-node-rescue:TEST_1P W5
+U 1 1 5AEADEAA
+P 6850 4200
+F 0 "W5" H 6850 4470 50  0000 C CNN
+F 1 "UART_TX" H 6850 4400 50  0000 C CNN
+F 2 "can-node:Measurement_Point_tiny" H 7050 4200 50  0001 C CNN
+F 3 "" H 7050 4200 50  0000 C CNN
+	1    6850 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L can-node-rescue:TEST_1P W4
+U 1 1 5AEADEB0
+P 6850 4100
+F 0 "W4" H 6850 4370 50  0000 C CNN
+F 1 "UART_RX" H 6850 4300 50  0000 C CNN
+F 2 "can-node:Measurement_Point_tiny" H 7050 4100 50  0001 C CNN
+F 3 "" H 7050 4100 50  0000 C CNN
+	1    6850 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
