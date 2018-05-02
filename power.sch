@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "CAN Node"
-Date "2017-01-13"
+Date "2018-05-01"
 Rev "1.1"
 Comp "Josef Raschen"
 Comment1 ""
