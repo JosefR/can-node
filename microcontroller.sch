@@ -26,7 +26,7 @@ F 3 "" H 7100 750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C5
+L Device:C C5
 U 1 1 562B6351
 P 1800 3050
 F 0 "C5" V 1900 3200 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 1800 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C4
+L Device:C C4
 U 1 1 562B6358
 P 950 3050
 F 0 "C4" V 1050 3200 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 4450 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C14
+L Device:C C14
 U 1 1 562B638A
 P 6700 1300
 F 0 "C14" V 6800 1450 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 6700 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C13
+L Device:C C13
 U 1 1 562B6391
 P 6300 1300
 F 0 "C13" V 6400 1450 50  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 6300 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C16
+L Device:C C16
 U 1 1 562B6398
 P 7100 1300
 F 0 "C16" V 7200 1450 50  0000 C CNN
@@ -136,18 +136,18 @@ F 3 "" H 7100 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:VBAT #PWR027
+L power:+BATT #PWR027
 U 1 1 562C42F9
 P 4750 1300
 F 0 "#PWR027" H 4750 1150 50  0001 C CNN
-F 1 "VBAT" H 4750 1440 50  0000 C CNN
+F 1 "+BATT" H 4750 1440 50  0000 C CNN
 F 2 "" H 4750 1300 60  0000 C CNN
 F 3 "" H 4750 1300 60  0000 C CNN
 	1    4750 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C9
+L Device:C C9
 U 1 1 57ADEBC4
 P 2700 2950
 F 0 "C9" V 2800 3100 50  0000 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 2700 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:SW_PUSH SW1
+L Switch:SW_Push SW1
 U 1 1 57ADEE8E
 P 1200 5350
 F 0 "SW1" V 1246 5296 50  0000 R CNN
@@ -224,7 +224,7 @@ F 3 "" H 3800 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R10
+L Device:R R10
 U 1 1 57AF6ACB
 P 3450 5900
 F 0 "R10" H 3520 5946 50  0000 L CNN
@@ -235,7 +235,7 @@ F 3 "" H 3450 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R11
+L Device:R R11
 U 1 1 57AF6B19
 P 3800 5900
 F 0 "R11" H 3870 5946 50  0000 L CNN
@@ -246,7 +246,7 @@ F 3 "" H 3800 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C18
+L Device:C C18
 U 1 1 57AF6E3D
 P 4700 7150
 F 0 "C18" H 4815 7196 50  0000 L CNN
@@ -305,7 +305,7 @@ SWDIO
 Text Label 6250 3500 0    60   ~ 0
 SWCLK
 $Comp
-L can-node-rescue:R R6
+L Device:R R6
 U 1 1 57C1A216
 P 1500 4100
 F 0 "R6" H 1570 4146 50  0000 L CNN
@@ -316,7 +316,7 @@ F 3 "" H 1500 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R5
+L Device:R R5
 U 1 1 57C1A465
 P 1200 4100
 F 0 "R5" H 1270 4146 50  0000 L CNN
@@ -349,7 +349,7 @@ F 3 "" H 1500 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C7
+L Device:C C7
 U 1 1 57C1C150
 P 2600 4600
 F 0 "C7" V 2700 4750 50  0000 C CNN
@@ -393,7 +393,7 @@ F 3 "" H 2600 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:SW_PUSH SW3
+L Switch:SW_Push SW3
 U 1 1 57C1D347
 P 8700 5850
 F 0 "SW3" V 8746 5796 50  0000 R CNN
@@ -404,7 +404,7 @@ F 3 "" H 8700 5850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L can-node-rescue:SW_PUSH SW2
+L Switch:SW_Push SW2
 U 1 1 57C1D7F1
 P 7700 5850
 F 0 "SW2" V 7746 5796 50  0000 R CNN
@@ -437,7 +437,7 @@ F 3 "" H 8700 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R9
+L Device:R R9
 U 1 1 57C1E04B
 P 7500 5100
 F 0 "R9" H 7570 5146 50  0000 L CNN
@@ -448,7 +448,7 @@ F 3 "" H 7500 5100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L can-node-rescue:C C15
+L Device:C C15
 U 1 1 57C1E297
 P 7250 5650
 F 0 "C15" V 7350 5800 50  0000 C CNN
@@ -470,7 +470,7 @@ F 3 "" H 7250 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C17
+L Device:C C17
 U 1 1 57C1E858
 P 8300 5650
 F 0 "C17" V 8400 5800 50  0000 C CNN
@@ -481,7 +481,7 @@ F 3 "" H 8300 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R12
+L Device:R R12
 U 1 1 57C1E953
 P 8500 5000
 F 0 "R12" H 8570 5046 50  0000 L CNN
@@ -503,7 +503,7 @@ F 3 "" H 8300 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C11
+L Device:C C11
 U 1 1 57C211AD
 P 4100 1300
 F 0 "C11" V 4200 1450 50  0000 C CNN
@@ -514,7 +514,7 @@ F 3 "" H 4100 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C10
+L Device:C C10
 U 1 1 57C2141F
 P 3800 1300
 F 0 "C10" V 3900 1450 50  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "" H 3800 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C8
+L Device:C C8
 U 1 1 57C22561
 P 2800 1150
 F 0 "C8" V 2900 1300 50  0000 C CNN
@@ -602,7 +602,7 @@ F 3 "" H 2800 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C6
+L Device:C C6
 U 1 1 57C22567
 P 2500 1150
 F 0 "C6" V 2600 1300 50  0000 C CNN
@@ -646,25 +646,25 @@ F 3 "" H 2300 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:Led_Small D5
+L Device:LED D5
 U 1 1 57C25469
-P 6550 6750
-F 0 "D5" V 6596 6682 50  0000 R CNN
-F 1 "red" V 6505 6682 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" V 6550 6750 50  0001 C CNN
-F 3 "" V 6550 6750 50  0000 C CNN
-	1    6550 6750
+P 6550 6700
+F 0 "D5" V 6596 6632 50  0000 R CNN
+F 1 "red" V 6505 6632 50  0000 R CNN
+F 2 "LEDs:LED_0603_HandSoldering" V 6550 6700 50  0001 C CNN
+F 3 "" V 6550 6700 50  0000 C CNN
+	1    6550 6700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L can-node-rescue:Led_Small D4
+L Device:LED D4
 U 1 1 57C257C3
-P 6250 6750
-F 0 "D4" V 6296 6682 50  0000 R CNN
-F 1 "red" V 6205 6682 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" V 6250 6750 50  0001 C CNN
-F 3 "" V 6250 6750 50  0000 C CNN
-	1    6250 6750
+P 6250 6700
+F 0 "D4" V 6296 6632 50  0000 R CNN
+F 1 "red" V 6205 6632 50  0000 R CNN
+F 2 "LEDs:LED_0603_HandSoldering" V 6250 6700 50  0001 C CNN
+F 3 "" V 6250 6700 50  0000 C CNN
+	1    6250 6700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -679,7 +679,7 @@ F 3 "" H 6250 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R7
+L Device:R R7
 U 1 1 57C25C6B
 P 6250 7050
 F 0 "R7" H 6320 7096 50  0000 L CNN
@@ -690,7 +690,7 @@ F 3 "" H 6250 7050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L can-node-rescue:R R8
+L Device:R R8
 U 1 1 57C25DDE
 P 6550 7050
 F 0 "R8" H 6620 7096 50  0000 L CNN
@@ -723,7 +723,7 @@ F 3 "" H 2000 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:Crystal_Small X1
+L Device:Crystal_Small X1
 U 1 1 58147F50
 P 1400 2550
 F 0 "X1" H 1400 2650 50  0000 C CNN
@@ -749,14 +749,14 @@ UART1_TX
 Text Label 6250 4100 0    60   ~ 0
 UART1_RX
 $Comp
-L can-node-rescue:CONN_02X05 P1
+L Connector_Generic:Conn_02x05_Odd_Even P1
 U 1 1 583060AE
-P 2350 7000
-F 0 "P1" H 2350 7300 50  0000 C CNN
-F 1 "Debug" H 2350 6700 50  0000 C CNN
-F 2 "can-node:micromatch_smd_2x05" H 2350 5800 50  0001 C CNN
-F 3 "" H 2350 5800 50  0000 C CNN
-	1    2350 7000
+P 2300 7000
+F 0 "P1" H 2300 7300 50  0000 C CNN
+F 1 "Debug" H 2300 6700 50  0000 C CNN
+F 2 "can-node:micromatch_smd_2x05" H 2300 5800 50  0001 C CNN
+F 3 "" H 2300 5800 50  0000 C CNN
+	1    2300 7000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -782,7 +782,7 @@ F 3 "" H 2600 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C12
+L Device:C C12
 U 1 1 562B6383
 P 5900 1300
 F 0 "C12" V 6000 1450 50  0000 C CNN
@@ -853,7 +853,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 3500 6700 3500
 Wire Wire Line
-	1200 5650 1200 5750
+	1200 5550 1200 5750
 Wire Wire Line
 	2700 2800 2700 2700
 Connection ~ 2700 2700
@@ -875,11 +875,11 @@ Wire Wire Line
 	2600 4850 2600 4750
 Connection ~ 2600 4400
 Wire Wire Line
-	7700 6150 7700 6250
+	7700 6050 7700 6250
 Wire Wire Line
-	8700 6150 8700 6250
+	8700 6050 8700 6250
 Wire Wire Line
-	7700 5550 7700 5100
+	7700 5650 7700 5100
 Wire Wire Line
 	7700 5100 7650 5100
 Wire Wire Line
@@ -940,9 +940,9 @@ Wire Wire Line
 Connection ~ 2800 900 
 Connection ~ 2500 900 
 Wire Wire Line
-	6250 4900 6250 6650
+	6250 4900 6250 6550
 Wire Wire Line
-	6550 4800 6550 6650
+	6550 4800 6550 6550
 Wire Wire Line
 	6250 6850 6250 6900
 Wire Wire Line
@@ -999,7 +999,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 5000 8700 5000
 Wire Wire Line
-	8700 5000 8700 5550
+	8700 5000 8700 5650
 Wire Wire Line
 	2900 4800 2900 6450
 Wire Wire Line
@@ -1034,7 +1034,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 7100 2100 7100
 $Comp
-L can-node-rescue:TEST_1P W3
+L Connector:Test_Point W3
 U 1 1 58445044
 P 2400 2650
 F 0 "W3" H 2400 2920 50  0000 C CNN
@@ -1047,7 +1047,7 @@ $EndComp
 Wire Wire Line
 	6200 4400 6300 4400
 $Comp
-L can-node-rescue:TEST_1P W1
+L Connector:Test_Point W1
 U 1 1 584476D2
 P 6450 2100
 F 0 "W1" H 6450 2370 50  0000 C CNN
@@ -1058,7 +1058,7 @@ F 3 "" H 6650 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W2
+L Connector:Test_Point W2
 U 1 1 5844774F
 P 6750 2100
 F 0 "W2" H 6750 2370 50  0000 C CNN
@@ -1073,7 +1073,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 2100 6450 2200
 $Comp
-L can-node-rescue:TEST_1P W6
+L Connector:Test_Point W6
 U 1 1 58448441
 P 7200 2650
 F 0 "W6" H 7200 2920 50  0000 C CNN
@@ -1084,7 +1084,7 @@ F 3 "" H 7400 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W17
+L Connector:Test_Point W17
 U 1 1 58640E37
 P 4100 6000
 F 0 "W17" H 4100 6270 50  0000 C CNN
@@ -1095,7 +1095,7 @@ F 3 "" H 4300 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W16
+L Connector:Test_Point W16
 U 1 1 5864135B
 P 3300 6000
 F 0 "W16" H 3300 6270 50  0000 C CNN
@@ -1152,7 +1152,7 @@ CANH_IN
 Text GLabel 10650 3000 2    60   BiDi ~ 0
 CANL_IN
 $Comp
-L can-node-rescue:R R13
+L Device:R R13
 U 1 1 586A5D02
 P 10500 2150
 F 0 "R13" H 10570 2196 50  0000 L CNN
@@ -1163,7 +1163,7 @@ F 3 "" H 10500 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R14
+L Device:R R14
 U 1 1 586A5D09
 P 10500 2650
 F 0 "R14" H 10570 2696 50  0000 L CNN
@@ -1194,7 +1194,7 @@ Wire Wire Line
 	10500 1650 10500 2000
 Connection ~ 10500 1650
 $Comp
-L can-node-rescue:C C20
+L Device:C C20
 U 1 1 586A5D1B
 P 10150 2550
 F 0 "C20" H 10265 2596 50  0000 L CNN
@@ -1227,7 +1227,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 1750 9550 1750
 $Comp
-L can-node-rescue:C C19
+L Device:C C19
 U 1 1 586A5D2F
 P 8350 2750
 F 0 "C19" H 8465 2796 50  0000 L CNN
@@ -1378,7 +1378,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 5000 8350 5000
 Wire Wire Line
-	1200 4400 1200 5050
+	1200 4400 1200 5150
 Wire Wire Line
 	1500 4500 1500 7000
 Wire Wire Line
@@ -1427,7 +1427,7 @@ Wire Wire Line
 	2400 2700 2400 2650
 Connection ~ 2400 2700
 $Comp
-L can-node-rescue:TEST_1P W5
+L Connector:Test_Point W5
 U 1 1 5AEADEAA
 P 6850 4200
 F 0 "W5" H 6850 4470 50  0000 C CNN
@@ -1438,7 +1438,7 @@ F 3 "" H 7050 4200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W4
+L Connector:Test_Point W4
 U 1 1 5AEADEB0
 P 6850 4100
 F 0 "W4" H 6850 4370 50  0000 C CNN

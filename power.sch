@@ -17,7 +17,7 @@ $EndDescr
 Text Notes 550  1000 0    60   ~ 0
 24 V
 $Comp
-L can-node-rescue:R R1
+L Device:R R1
 U 1 1 5637DBF2
 P 1200 2450
 F 0 "R1" V 1280 2450 50  0000 C CNN
@@ -28,7 +28,7 @@ F 3 "" H 1200 2450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:ZENER D2
+L Device:D_Zener D2
 U 1 1 5637E04D
 P 1600 1750
 F 0 "D2" H 1600 1850 50  0000 C CNN
@@ -40,14 +40,14 @@ F 4 "ON Semiconductor 1SMA5925BT3G" H 1600 1750 60  0001 C CNN "Device"
 	0    1    1    0   
 $EndComp
 $Comp
-L can-node-rescue:TVS D1
+L Device:D_TVS D1
 U 1 1 57AF3BB5
 P 850 2200
 F 0 "D1" V 804 2288 50  0000 L CNN
 F 1 "40.2V" V 895 2288 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA_Handsoldering" H 850 2200 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88367/p4sma.pdf" H 850 2200 50  0001 C CNN
-F 4 "P4SMA47CA" V 1100 2200 60  0000 C CNN "Part"
+F 4 "P4SMA47CA" H 850 2050 60  0000 C CNN "Part"
 	1    850  2200
 	0    1    1    0   
 $EndComp
@@ -107,7 +107,7 @@ F 3 "" H 3300 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C2
+L Device:C C2
 U 1 1 57D41A9C
 P 3950 1400
 F 0 "C2" V 3698 1400 50  0000 C CNN
@@ -120,7 +120,7 @@ F 5 "RE:X7R-G0603 100N" V 3950 1400 50  0001 C CNN "DPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L can-node-rescue:D_Schottky D3
+L Device:D_Schottky D3
 U 1 1 57D41C33
 P 4150 1800
 F 0 "D3" V 4104 1879 50  0000 L CNN
@@ -131,7 +131,7 @@ F 3 "" H 4150 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L can-node-rescue:INDUCTOR L1
+L Device:L L1
 U 1 1 57D41D41
 P 4550 1600
 F 0 "L1" V 4766 1600 50  0000 C CNN
@@ -142,7 +142,7 @@ F 3 "" H 4550 1600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L can-node-rescue:C C3
+L Device:C C3
 U 1 1 57D41E1E
 P 5350 1900
 F 0 "C3" H 5465 1946 50  0000 L CNN
@@ -153,7 +153,7 @@ F 3 "" H 5350 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R3
+L Device:R R3
 U 1 1 57D41F11
 P 4950 1800
 F 0 "R3" H 5020 1846 50  0000 L CNN
@@ -164,7 +164,7 @@ F 3 "" H 4950 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R4
+L Device:R R4
 U 1 1 57D41FE1
 P 4950 2200
 F 0 "R4" H 5020 2246 50  0000 L CNN
@@ -175,7 +175,7 @@ F 3 "" H 4950 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R2
+L Device:R R2
 U 1 1 57D4210A
 P 2750 1550
 F 0 "R2" H 2820 1596 50  0000 L CNN
@@ -186,7 +186,7 @@ F 3 "" H 2750 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:C C1
+L Device:C C1
 U 1 1 57D42289
 P 2350 1650
 F 0 "C1" H 2465 1696 50  0000 L CNN
@@ -265,7 +265,7 @@ $EndComp
 Text Notes 5450 1600 0    60   ~ 0
 3.3V 0.6A
 $Comp
-L can-node-rescue:TEST_1P W8
+L Connector:Test_Point W8
 U 1 1 58646689
 P 1900 1450
 F 0 "W8" H 1900 1720 50  0000 C CNN
@@ -276,7 +276,7 @@ F 3 "" H 2100 1450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W9
+L Connector:Test_Point W9
 U 1 1 58646824
 P 2850 1300
 F 0 "W9" H 2850 1570 50  0000 C CNN
@@ -287,7 +287,7 @@ F 3 "" H 3050 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W11
+L Connector:Test_Point W11
 U 1 1 58646AF7
 P 4250 1300
 F 0 "W11" H 4250 1570 50  0000 C CNN
@@ -298,7 +298,7 @@ F 3 "" H 4450 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W10
+L Connector:Test_Point W10
 U 1 1 58646E03
 P 3800 2050
 F 0 "W10" H 3800 2320 50  0000 C CNN
@@ -309,7 +309,7 @@ F 3 "" H 4000 2050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W12
+L Connector:Test_Point W12
 U 1 1 5864702F
 P 5800 1700
 F 0 "W12" H 5800 1970 50  0000 C CNN
@@ -364,7 +364,7 @@ F 3 "" H 850 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W19
+L Connector:Test_Point W19
 U 1 1 58761A7C
 P 1450 6600
 F 0 "W19" H 1508 6720 50  0000 L CNN
@@ -375,7 +375,7 @@ F 3 "" H 1650 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:TEST_1P W15
+L Connector:Test_Point W15
 U 1 1 5876366A
 P 1450 6300
 F 0 "W15" H 1508 6420 50  0000 L CNN
@@ -438,10 +438,9 @@ Wire Wire Line
 Wire Wire Line
 	4950 1600 4950 1650
 Wire Wire Line
-	4850 1600 4950 1600
+	4700 1600 4950 1600
 Wire Wire Line
 	2350 1800 2350 1850
-Connection ~ 2750 1400
 Wire Wire Line
 	2900 1700 2750 1700
 Connection ~ 4150 1600
@@ -460,10 +459,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 1400 1600 1400
 Wire Wire Line
-	850  2900 850  2500
+	850  2900 850  2350
 Connection ~ 850  1400
 Wire Wire Line
-	850  1900 850  1400
+	850  2050 850  1400
 Wire Wire Line
 	750  1400 850  1400
 Connection ~ 1600 1400
@@ -473,9 +472,9 @@ Wire Wire Line
 Wire Wire Line
 	1200 1700 1200 2050
 Wire Wire Line
-	1600 1950 1600 2050
+	1600 1900 1600 2050
 Wire Wire Line
-	1600 1550 1600 1400
+	1600 1600 1600 1400
 Wire Wire Line
 	1200 2900 1200 2600
 Wire Wire Line
@@ -498,7 +497,7 @@ $EndComp
 Wire Wire Line
 	1350 6600 1450 6600
 $Comp
-L can-node-rescue:CP C22
+L Device:CP C22
 U 1 1 5877CA7D
 P 5300 4050
 F 0 "C22" H 5418 4096 50  0000 L CNN
@@ -509,7 +508,7 @@ F 3 "" H 5300 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node-rescue:R R15
+L Device:R R15
 U 1 1 5877CBD5
 P 5300 3650
 F 0 "R15" H 5370 3696 50  0000 L CNN
@@ -550,21 +549,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 3450 5750 3450
 Connection ~ 5300 3450
-$Comp
-L can-node-rescue:VBAT #PWR020
-U 1 1 5877CFC4
-P 5750 3400
-F 0 "#PWR020" H 5750 3250 50  0001 C CNN
-F 1 "VBAT" H 5765 3573 50  0000 C CNN
-F 2 "" H 5750 3400 60  0000 C CNN
-F 3 "" H 5750 3400 60  0000 C CNN
-	1    5750 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5750 3450 5750 3400
 $Comp
-L can-node-rescue:D_Schottky D6
+L Device:D_Schottky D6
 U 1 1 58788FE5
 P 5300 3200
 F 0 "D6" V 5346 3121 50  0000 R CNN
@@ -587,17 +575,13 @@ Wire Wire Line
 Wire Wire Line
 	1900 1400 2350 1400
 Wire Wire Line
-	2350 1400 2750 1400
-Wire Wire Line
 	5350 1600 5800 1600
 Wire Wire Line
 	4950 1600 5350 1600
 Wire Wire Line
 	4950 2000 4950 2050
 Wire Wire Line
-	2750 1400 2850 1400
-Wire Wire Line
-	4150 1600 4250 1600
+	4150 1600 4400 1600
 Wire Wire Line
 	4150 1600 4150 1650
 Wire Wire Line
@@ -608,4 +592,17 @@ Wire Wire Line
 	1200 2050 1200 2300
 Wire Wire Line
 	5300 3450 5300 3500
+Wire Wire Line
+	2350 1400 2850 1400
+$Comp
+L power:+BATT #PWR?
+U 1 1 5B49B0E4
+P 5750 3400
+F 0 "#PWR?" H 5750 3250 50  0001 C CNN
+F 1 "+BATT" H 5765 3573 50  0000 C CNN
+F 2 "" H 5750 3400 50  0001 C CNN
+F 3 "" H 5750 3400 50  0001 C CNN
+	1    5750 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
