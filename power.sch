@@ -15,30 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 550  1000 0    60   ~ 0
-24 V
-$Comp
-L Device:R R1
-U 1 1 5637DBF2
-P 1200 2450
-F 0 "R1" V 1280 2450 50  0000 C CNN
-F 1 "100k" V 1200 2450 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 1130 2450 30  0001 C CNN
-F 3 "" H 1200 2450 30  0000 C CNN
-	1    1200 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener D2
-U 1 1 5637E04D
-P 1600 1750
-F 0 "D2" H 1600 1850 50  0000 C CNN
-F 1 "10V" H 1600 1650 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1600 1750 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MM3Z2V4T1-D.PDF" H 1600 1750 60  0001 C CNN
-F 4 "ON Semiconductor 1SMA5925BT3G" H 1600 1750 60  0001 C CNN "Device"
-	1    1600 1750
-	0    1    1    0   
-$EndComp
+9..24 V
 $Comp
 L Device:D_TVS D1
 U 1 1 57AF3BB5
@@ -85,24 +62,13 @@ F 3 "" H 4100 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L can-node:DMP6023LSS Q1
-U 1 1 57C95065
-P 1150 1500
-F 0 "Q1" V 1450 1500 50  0000 C CNN
-F 1 "DMP6023LSS" V 1350 1500 50  0000 C CNN
-F 2 "can-node:DMP6023LSS" V 1100 1750 50  0001 C CIN
-F 3 "" H 1150 1500 50  0000 L CNN
-	1    1150 1500
-	0    1    -1   0   
-$EndComp
-$Comp
 L can-node:LMR16006 U1
 U 1 1 57D41661
 P 3300 1700
 F 0 "U1" H 3300 2287 60  0000 C CNN
 F 1 "LMR16006" H 3300 2181 60  0000 C CNN
 F 2 "can-node:TI-DDC_HandSoldering" H 3300 1600 60  0001 C CNN
-F 3 "" H 3300 1600 60  0000 C CNN
+F 3 "http://www.ti.com/product/LMR16006/datasheet" H 3300 1600 60  0001 C CNN
 	1    3300 1700
 	1    0    0    -1  
 $EndComp
@@ -112,7 +78,7 @@ U 1 1 57D41A9C
 P 3950 1400
 F 0 "C2" V 3698 1400 50  0000 C CNN
 F 1 "100n >10V" V 3789 1400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3988 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3988 1250 50  0001 C CNN
 F 3 "" H 3950 1400 50  0000 C CNN
 F 4 ">10V" V 3950 1400 60  0001 C CNN "Rating"
 F 5 "RE:X7R-G0603 100N" V 3950 1400 50  0001 C CNN "DPN"
@@ -147,7 +113,7 @@ U 1 1 57D41E1E
 P 5350 1900
 F 0 "C3" H 5465 1946 50  0000 L CNN
 F 1 "22µF" H 5465 1855 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5388 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5388 1750 50  0001 C CNN
 F 3 "" H 5350 1900 50  0000 C CNN
 	1    5350 1900
 	1    0    0    -1  
@@ -158,7 +124,7 @@ U 1 1 57D41F11
 P 4950 1800
 F 0 "R3" H 5020 1846 50  0000 L CNN
 F 1 "28k 1%" H 5020 1755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4880 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 1800 50  0001 C CNN
 F 3 "" H 4950 1800 50  0000 C CNN
 	1    4950 1800
 	1    0    0    -1  
@@ -169,7 +135,7 @@ U 1 1 57D41FE1
 P 4950 2200
 F 0 "R4" H 5020 2246 50  0000 L CNN
 F 1 "8.45k 1%" H 5020 2155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4880 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 2200 50  0001 C CNN
 F 3 "" H 4950 2200 50  0000 C CNN
 	1    4950 2200
 	1    0    0    -1  
@@ -177,23 +143,23 @@ $EndComp
 $Comp
 L Device:R R2
 U 1 1 57D4210A
-P 2750 1550
-F 0 "R2" H 2820 1596 50  0000 L CNN
-F 1 "100k" H 2820 1505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2680 1550 50  0001 C CNN
-F 3 "" H 2750 1550 50  0000 C CNN
-	1    2750 1550
+P 2700 1600
+F 0 "R2" H 2770 1646 50  0000 L CNN
+F 1 "100k" H 2770 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2630 1600 50  0001 C CNN
+F 3 "" H 2700 1600 50  0000 C CNN
+	1    2700 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 57D42289
-P 2350 1650
-F 0 "C1" H 2465 1696 50  0000 L CNN
-F 1 "2.2µF" H 2465 1605 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 2388 1500 50  0001 C CNN
-F 3 "" H 2350 1650 50  0000 C CNN
-	1    2350 1650
+P 2300 1650
+F 0 "C1" H 2415 1696 50  0000 L CNN
+F 1 "2.2µF" H 2415 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 2338 1500 50  0001 C CNN
+F 3 "" H 2300 1650 50  0000 C CNN
+	1    2300 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -243,12 +209,12 @@ $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 57D42E3B
-P 2350 1850
-F 0 "#PWR010" H 2350 1600 50  0001 C CNN
-F 1 "GND" H 2355 1677 50  0000 C CNN
-F 2 "" H 2350 1850 50  0000 C CNN
-F 3 "" H 2350 1850 50  0000 C CNN
-	1    2350 1850
+P 2300 1900
+F 0 "#PWR010" H 2300 1650 50  0001 C CNN
+F 1 "GND" H 2305 1727 50  0000 C CNN
+F 2 "" H 2300 1900 50  0000 C CNN
+F 3 "" H 2300 1900 50  0000 C CNN
+	1    2300 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -342,17 +308,6 @@ F 3 "" H 750 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
-U 1 1 5637DBF8
-P 1200 2900
-F 0 "#PWR014" H 1200 2650 50  0001 C CNN
-F 1 "GND" H 1200 2750 50  0000 C CNN
-F 2 "" H 1200 2900 60  0000 C CNN
-F 3 "" H 1200 2900 60  0000 C CNN
-	1    1200 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR015
 U 1 1 57AF3EE9
 P 850 2900
@@ -412,12 +367,11 @@ Wire Wire Line
 Connection ~ 2850 1400
 Wire Wire Line
 	2850 1400 2850 1300
-Connection ~ 1900 1400
 Wire Wire Line
 	1900 1400 1900 1450
-Connection ~ 2350 1400
+Connection ~ 2300 1400
 Wire Wire Line
-	2350 1400 2350 1500
+	2300 1400 2300 1500
 Wire Wire Line
 	2900 2400 2900 2000
 Connection ~ 5350 1600
@@ -440,9 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1600 4950 1600
 Wire Wire Line
-	2350 1800 2350 1850
-Wire Wire Line
-	2900 1700 2750 1700
+	2300 1800 2300 1900
 Connection ~ 4150 1600
 Wire Wire Line
 	4150 2150 4150 1950
@@ -457,26 +409,12 @@ Wire Wire Line
 Wire Wire Line
 	4700 5450 4700 5400
 Wire Wire Line
-	1350 1400 1600 1400
-Wire Wire Line
 	850  2900 850  2350
 Connection ~ 850  1400
 Wire Wire Line
 	850  2050 850  1400
 Wire Wire Line
 	750  1400 850  1400
-Connection ~ 1600 1400
-Connection ~ 1200 2050
-Wire Wire Line
-	1600 2050 1200 2050
-Wire Wire Line
-	1200 1700 1200 2050
-Wire Wire Line
-	1600 1900 1600 2050
-Wire Wire Line
-	1600 1600 1600 1400
-Wire Wire Line
-	1200 2900 1200 2600
 Wire Wire Line
 	750  1250 750  1400
 Wire Wire Line
@@ -513,7 +451,7 @@ U 1 1 5877CBD5
 P 5300 3650
 F 0 "R15" H 5370 3696 50  0000 L CNN
 F 1 "100" H 5370 3605 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5230 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.33x1.40mm_HandSolder" V 5230 3650 50  0001 C CNN
 F 3 "" H 5300 3650 50  0000 C CNN
 	1    5300 3650
 	1    0    0    -1  
@@ -573,7 +511,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 1400 2900 1400
 Wire Wire Line
-	1900 1400 2350 1400
+	1900 1400 2300 1400
 Wire Wire Line
 	5350 1600 5800 1600
 Wire Wire Line
@@ -585,24 +523,48 @@ Wire Wire Line
 Wire Wire Line
 	4150 1600 4150 1650
 Wire Wire Line
-	850  1400 950  1400
-Wire Wire Line
-	1600 1400 1900 1400
-Wire Wire Line
-	1200 2050 1200 2300
+	850  1400 1300 1400
 Wire Wire Line
 	5300 3450 5300 3500
 Wire Wire Line
-	2350 1400 2850 1400
+	2300 1400 2700 1400
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR014
 U 1 1 5B49B0E4
 P 5750 3400
-F 0 "#PWR?" H 5750 3250 50  0001 C CNN
+F 0 "#PWR014" H 5750 3250 50  0001 C CNN
 F 1 "+BATT" H 5765 3573 50  0000 C CNN
 F 2 "" H 5750 3400 50  0001 C CNN
 F 3 "" H 5750 3400 50  0001 C CNN
 	1    5750 3400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 5B49C1D3
+P 1450 1400
+F 0 "D2" H 1450 1184 50  0000 C CNN
+F 1 "1A, 50V" H 1450 1275 50  0000 C CNN
+F 2 "can-node:D_SMF_Handsoldering" H 1450 1400 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/87522/ss1fn6.pdf" H 1450 1400 50  0001 C CNN
+F 4 "SS1FN6" H 1450 1400 50  0001 C CNN "MPN"
+F 5 "Vishay" H 1450 1400 50  0001 C CNN "M"
+F 6 "https://www.mouser.de/ProductDetail/Vishay-Semiconductors/SS1FN6-M3-H?qs=sGAEpiMZZMtQ8nqTKtFS%2fIcZoc7pcTTOWtc6FqE6FLIutzkC78ds%252bA%3d%3d" H 1450 1400 50  0001 C CNN "DL"
+	1    1450 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 1400 1900 1400
+Connection ~ 1900 1400
+Wire Wire Line
+	2700 1750 2900 1750
+Wire Wire Line
+	2900 1750 2900 1700
+Wire Wire Line
+	2700 1450 2700 1400
+Connection ~ 2700 1400
+Wire Wire Line
+	2700 1400 2850 1400
+Text Label 2450 1400 0    60   ~ 0
+VIN
 $EndSCHEMATC
